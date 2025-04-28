@@ -6,5 +6,5 @@ form.addEventListener("submit",(e)=>{
 	let Year=document.getElementById("year").value;
 	let h3=document.getElementById("url");
 
-	h3.innerText+=`name=${Name}&year=${Year}`
+	h3.innerText+=`?name=${Name}&year=${Year}`
 })
